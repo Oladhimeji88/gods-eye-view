@@ -5,8 +5,6 @@ dist
 # full dotenv ladder — .env, .env.local, .env.<mode> and .env.<mode>.local —
 # so a key placed in any of them is live for the app. Only .env was ignored,
 # leaving the other three committable. .env.example is the tracked template.
-.env
-.env.*
 !.env.example
 *.log
 screenshots/
@@ -19,3 +17,4 @@ output/
 3d-models/
 pinokio/ENVIRONMENT
 pinokio/.installed
+config.bat
